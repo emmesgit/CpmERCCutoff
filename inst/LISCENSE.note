@@ -1,0 +1,4 @@
+CpmERCCutoff: Empirical determination of a log2 counts per million (CPM) cutoff to filter out lowly expressed genes based on ERCC RNA spike-in pairs as described in Goll and Bosinger et.al, 2022 (https://doi.org/10.1101/2022.06.23.497396).
+https://github.com/emmesgit/CpmERCCutoff
+Copyright (C) 2022 The Emmes Company, LLC
+The CpmERCCutoff package is distributed under General Public License (GPL) version 3 (or later).  The CpmERCCutoff packages imports the following other open source software components: stat (v.4.1.1, GPL2 and GPL3) and graphics (v.4.1.1, GPL2 and GPL3).
