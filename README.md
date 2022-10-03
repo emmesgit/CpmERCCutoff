@@ -16,16 +16,16 @@ included in the package is used as input for the observed expression of the 92 E
 respective ERCC sequence. Typically, prior to CPM calculation, the read count data is normalized for any systematic differences between samples, for example, 
 by using TMM normalization as implemented in the edgeR package.
   
-The `CpmERCCutoff package` fits a 3rd order polynomial equation to empirically determine a CPM gene expression cutoff that ensures a high correlation 
+The `CpmERCCutoff` package fits a 3rd order polynomial equation to empirically determine a CPM gene expression cutoff that ensures a high correlation 
 with expected fold changes based on  ERCC spike-in pairs.  The polynomial trend shows that the stronger the filtering, the more accurate the fold 
 changes but fewer genes are included in the analysis. This package balances these parameters using the lower 95% bound of the bootstrap confidence interval 
 as the default CPM threshold. The use of internal controls accounts for technical parameters such as read length, read coverage, and other experimental factors. It
 requires ERCC1 and ERCC2 spiked into multiple sample pairs.
 
 ## Installation
-install the stable version this R package from [CRAN](https://cran.r-project.org/web/packages/CpmERCCutoff/index.html) with:
+install the stable version this R package from [CRAN](https://cran.r-project.org/web/packages/CpmERCCutoff/index.html) with:  
 `install.packages("CpmERCCutoff")`
-
+  
 ## Release Notes / What's news
 v1.0.0 - Initial Release - 2022-09-13
   
